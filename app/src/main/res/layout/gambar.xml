@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent">
+
+        <TextView
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:gravity="center"
+             android:background="#ff0000"
+             android:textColor="#000000"
+             android:text="X" />
+
+    </LinearLayout>
+
+    <FrameLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent">
+
+        <ImageView
+             android:layout_height="350dp"
+             android:layout_width="350dp"
+             android:id="@+id/gambarBesar"
+             android:layout_gravity="center" />
+
+        <LinearLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:layout_marginBottom="10dp"
+             android:background="#555555"
+             android:layout_gravity="bottom">
+
+            <HorizontalScrollView
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent">
+
+                <GridLayout
+                     android:layout_height="match_parent"
+                     android:layout_width="wrap_content"
+                     android:orientation="horizontal"
+                     android:id="@+id/grid">
+
+                </GridLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
