@@ -41,5 +41,11 @@
             android:name="Video"></activity>
         <activity
             android:name="Asisten"></activity>
+        <activity
+            android:name="LihatPdf"></activity>
+        <activity
+            android:name="LihatDocx"></activity>
+        <activity
+            android:name="Browser"></activity>
     </application>
 </manifest>
