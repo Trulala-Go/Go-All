@@ -7,7 +7,7 @@ _Aplikasi Android multifungsi berbasis Kotlin & Jetpack Compose._
 ## Fitur (sementara)
 
 - Terminal (placeholder)
-- Berkas (file manager dasar)
+- Berkas (external dan apk)
 - Editor (belum aktif)
 - Image / Video / Music viewer (belum implementasi)
 - PDF & DOCX viewer (belum penuh)
