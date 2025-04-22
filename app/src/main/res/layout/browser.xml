@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="300dp"
+         android:visibility="gone"
+         android:orientation="vertical"
+         android:id="@+id/liner">
+
+        <LinearLayout
+             android:layout_height="40dp"
+             android:layout_width="match_parent"
+             android:orientation="horizontal"
+             android:layout_gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:background="#ff0000"
+                 android:gravity="center"
+                 android:text="X"
+                 android:id="@+id/keluar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+
+        <LinearLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:background="#00f00f"
+             android:orientation="horizontal">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/nav"
+                 android:layout_marginEnd="50dp"
+                 android:id="@+id/nav" />
+
+            <EditText
+                 android:layout_height="40dp"
+                 android:layout_width="200dp"
+                 android:layout_marginEnd="20dp"
+                 android:background="#000000"
+                 android:hint="URL"
+                 android:textSize="10sp"
+                 android:textColor="#afffff"
+                 android:id="@+id/cari" />
+
+            <TextView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:background="#fde000"
+                 android:gravity="center"
+                 android:textColor="#000000"
+                 android:id="@+id/mencari"
+                 android:text="cari" />
+
+        </LinearLayout>
+
+        <ProgressBar
+             android:layout_height="4dp"
+             android:layout_width="match_parent"
+             android:visibility="gone"
+             android:background="#af3af3"
+             android:indeterminate="true"
+             style="?android:attr/progressBarStyleHorizontal"
+             android:layout_alignParentTop="true"
+             android:progressDrawable="@drawable/progress_bar"
+             android:id="@+id/loading" />
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_margin="10dp">
+
+            <android.webkit.WebView
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:id="@+id/web">
+
+            </android.webkit.WebView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
