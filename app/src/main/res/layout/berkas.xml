@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="horizontal">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="300dp"
+         android:visibility="gone"
+         android:background="#222222"
+         android:orientation="vertical"
+         android:id="@+id/liner">
+
+        <LinearLayout
+             android:layout_height="40dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:orientation="horizontal">
+
+            <TextView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:layout_marginEnd="35dp"
+                 android:background="#ff0000"
+                 android:gravity="center"
+                 android:id="@+id/keluar"
+                 android:text="X" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_marginTop="20dp">
+
+            <GridLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:orientation="horizontal"
+                 android:columnCount="2"
+                 android:id="@+id/papanTempel">
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+
+        <LinearLayout
+             android:layout_height="40dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:background="#555555"
+             android:orientation="horizontal">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/nav"
+                 android:layout_marginEnd="50dp"
+                 android:id="@+id/nav" />
+
+            <TextView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:layout_marginEnd="30dp"
+                 android:background="#adeadd"
+                 android:gravity="center"
+                 android:textColor="#000000"
+                 android:id="@+id/baru"
+                 android:text="+" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:layout_marginEnd="30dp"
+                 android:src="@drawable/memo_apk"
+                 android:id="@+id/apk" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:layout_marginEnd="30dp"
+                 android:src="@drawable/sd_card"
+                 android:id="@+id/sdCard" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:visibility="gone"
+                 android:src="@drawable/kembali"
+                 android:id="@+id/kembali" />
+
+        </LinearLayout>
+
+        <ProgressBar
+             android:layout_height="4dp"
+             android:layout_width="match_parent"
+             android:visibility="gone"
+             android:background="#af3af3"
+             android:indeterminate="true"
+             style="?android:attr/progressBarStyleHorizontal"
+             android:layout_alignParentTop="true"
+             android:progressDrawable="@drawable/progress_bar"
+             android:id="@+id/loading" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:background="#000000"
+             android:layout_margin="5dp"
+             android:textSize="12sp"
+             android:textColor="#ffffff"
+             android:textIsSelectable="true"
+             android:id="@+id/jalur"
+             android:text="/" />
+
+        <LinearLayout
+             android:layout_height="35dp"
+             android:layout_width="match_parent"
+             android:visibility="gone"
+             android:gravity="center"
+             android:background="#aaaeed"
+             android:orientation="horizontal"
+             android:id="@+id/lama">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/salin"
+                 android:layout_marginEnd="30dp"
+                 android:id="@+id/salin" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/potong"
+                 android:layout_marginEnd="30dp"
+                 android:id="@+id/potong" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:visibility="gone"
+                 android:src="@drawable/tempel"
+                 android:layout_marginEnd="30dp"
+                 android:id="@+id/tempel" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/hapus"
+                 android:layout_marginEnd="30dp"
+                 android:id="@+id/hapus" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/rename"
+                 android:layout_marginEnd="30dp"
+                 android:id="@+id/rename" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/lainya"
+                 android:id="@+id/lainya" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_margin="5dp"
+             android:orientation="vertical">
+
+            <ScrollView
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent">
+
+                <GridLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:orientation="horizontal"
+                     android:columnCount="3"
+                     android:layout_gravity="center_horizontal"
+                     android:id="@+id/grid">
+
+                </GridLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

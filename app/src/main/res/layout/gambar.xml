@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="50dp"
+         android:layout_width="match_parent"
+         android:background="#333333"
+         android:gravity="center_vertical"
+         android:orientation="horizontal">
+
+        <TextView
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:background="#ff0000"
+             android:gravity="center"
+             android:textSize="20sp"
+             android:textColor="#000000"
+             android:id="@+id/keluar"
+             android:text="X" />
+
+    </LinearLayout>
+
+    <FrameLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:layout_margin="10dp">
+
+        <ImageView
+             android:layout_height="400dp"
+             android:layout_width="300dp"
+             android:layout_marginTop="50dp"
+             android:layout_gravity="center_horizontal"
+             android:id="@+id/besar" />
+
+        <LinearLayout
+             android:layout_height="60dp"
+             android:layout_width="match_parent"
+             android:layout_marginBottom="20dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:layout_gravity="bottom">
+
+            <HorizontalScrollView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content">
+
+                <GridLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:orientation="horizontal"
+                     android:id="@+id/grid">
+
+                </GridLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
