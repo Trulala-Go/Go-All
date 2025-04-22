@@ -10,7 +10,7 @@ Proyek Android berbasis Kotlin yang menggunakan Jetpack Compose untuk membangun 
 
 ## Screenshot
 
-(Tambahkan screenshot di sini jika ada)
+
 
 ## Cara Menjalankan
 
@@ -30,4 +30,4 @@ Proyek Android berbasis Kotlin yang menggunakan Jetpack Compose untuk membangun 
 
 ## Lisensi
 
-Proyek ini bersifat open-source. (Tentukan jenis lisensi di sini jika ada.)
+Proyek ini bersifat open-source.
