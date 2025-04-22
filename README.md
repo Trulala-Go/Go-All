@@ -1,33 +1,34 @@
 # Go-All
 
-Proyek Android berbasis Kotlin yang menggunakan Jetpack Compose untuk membangun UI secara deklaratif.
+_Aplikasi Android multifungsi berbasis Kotlin & Jetpack Compose._
 
-## Fitur
+**Status: Masih dalam pengembangan.**
 
-- Jetpack Compose
-- Material Theme
-- Setup awal aplikasi Android modern
+## Fitur (sementara)
 
-## Screenshot
+- Terminal (placeholder)
+- Berkas (file manager dasar)
+- Editor (belum aktif)
+- Image / Video / Music viewer (belum implementasi)
+- PDF & DOCX viewer (belum penuh)
+- OTG dan AI Assistant (rencana)
+
+## Tampilan Awal
 
 ![Tampilan Awal](assets/tampilan.png)
 
-## Cara Menjalankan
+## Build
 
-1. Buka project di Android Studio.
-2. Pastikan sudah menggunakan Android Studio versi terbaru (Arctic Fox ke atas).
-3. Klik "Run".
+1. Buka di Android Studio.
+2. Pastikan dependency sesuai `build.gradle`.
+3. Jalankan via emulator atau device.
 
-## Struktur File
+## Catatan Pengembangan
 
-- `MainActivity.kt`: Entry point aplikasi, memuat UI Compose dasar.
-
-## Rencana Pengembangan
-
-- Tambahkan fitur baru
-- Navigasi antar halaman
-- Integrasi API
+- Fokus awal: File manager dasar.
+- Struktur masih sederhana, akan terus bertambah modul.
+- Belum ada database / API eksternal.
 
 ## Lisensi
 
-Proyek ini bersifat open-source.
+Project ini bersifat **eksperimen/pribadi**, belum ada lisensi resmi.
