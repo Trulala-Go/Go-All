@@ -10,7 +10,7 @@ Proyek Android berbasis Kotlin yang menggunakan Jetpack Compose untuk membangun 
 
 ## Screenshot
 
-
+![Tampilan Awal](assets/tampilan.png)
 
 ## Cara Menjalankan
 
