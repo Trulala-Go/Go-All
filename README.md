@@ -11,6 +11,7 @@ _Aplikasi Android multifungsi berbasis Kotlin & Jetpack Compose._
 - Editor (belum aktif)
 - Image / Video / Music viewer (belum implementasi)
 - PDF & DOCX viewer (belum penuh)
+- Browser
 - OTG dan AI Assistant (rencana)
 
 ## Tampilan Awal
